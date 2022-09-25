@@ -11,20 +11,20 @@ import "./Header.css"
 function Header() {
     return (
         <div>
-            <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar bg="myBlack" variant="dark" fixed="top" collapseOnSelect expand="lg">
       <Container>
-        <Navbar.Brand className="order-lg-0 mx-auto order-1" href="#home"><AppleIcon/></Navbar.Brand>
+        <Navbar.Brand className="order-lg-0 mx-auto order-1" href="#home"><span className="linkText"><AppleIcon/></span></Navbar.Brand>
         <Navbar.Toggle className="order-lg-1 order-0" aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse  id="responsive-navbar-nav">
           <Nav className="flex-grow-1 justify-content-evenly">
-            <Nav.Link   href="#Mac">Mac</Nav.Link>
-            <Nav.Link  href="#iPad">iPad</Nav.Link>
-            <Nav.Link  href="#iPhone">iPhone</Nav.Link>
-            <Nav.Link href="#watch">Watch</Nav.Link>
-            <Nav.Link href="#tv">TV</Nav.Link>
-            <Nav.Link  href="#support">Support</Nav.Link>
-            <Nav.Link  href="#Search"><SearchIcon /></Nav.Link>
-            <Nav.Link href="#cart"><ShoppingBagOutlinedIcon /></Nav.Link>
+            <Nav.Link  href="#Mac"><span className="linkText">Mac</span></Nav.Link>
+            <Nav.Link  href="#iPad"><span className="linkText">iPad</span></Nav.Link>
+            <Nav.Link  href="#iPhone"><span className="linkText">iPhone</span></Nav.Link>
+            <Nav.Link  href="#watch"><span className="linkText">Watch</span></Nav.Link>
+            <Nav.Link  href="#tv"><span className="linkText">TV</span></Nav.Link>
+            <Nav.Link  href="#support"><span className="linkText">Support</span></Nav.Link>
+            <Nav.Link  href="#Search"><span className="linkText"><SearchIcon /></span></Nav.Link>
+            <Nav.Link  href="#cart"><span className="linkText"><ShoppingBagOutlinedIcon /></span></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

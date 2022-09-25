@@ -19,11 +19,11 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 		linkLearn = "Learn more"
         buyUrl = "#" 
         linkBuy = "Order"
-		captionClassName = "ipod-caption row"
+		captionClassName = "ipad-caption row"
 		rightCaptionClass= "col-sm-12 col-md-6 text-md-right" 
-        ipodPrice= "iPad Pro available starting 3.25"
+        ipadPrice= "iPad Pro available starting 3.25"
 		leftCaptionClass = "col-sm-12 col-md-6 text-md-left" 
-        ipodDate = "Magic Keyboard coming in May"
+        ipadDate = "Magic Keyboard coming in May"
 		/>
 		{/* section 1 ends  */}
 

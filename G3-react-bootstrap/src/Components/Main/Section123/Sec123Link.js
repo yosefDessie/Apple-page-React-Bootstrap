@@ -34,8 +34,8 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 			</div>
 
 			<div className={this.props.captionClassName}>
-				<Row> <div className={this.props.rightCaptionClass}>{this.props.ipodPrice}</div>
-				<div className={this.props.leftCaptionClass}>{this.props.ipodDate}</div>
+				<Row> <div className={this.props.rightCaptionClass}>{this.props.ipadPrice}</div>
+				<div className={this.props.leftCaptionClass}>{this.props.ipadDate}</div>
                 </Row>
 			</div>
 		</div>

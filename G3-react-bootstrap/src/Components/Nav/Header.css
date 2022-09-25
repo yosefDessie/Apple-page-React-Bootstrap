@@ -1,4 +1,4 @@
-.nav-wrapper {
+/* .nav-wrapper {
     background: rgba(0,0,0,0.8);
     font-size: 0.85em;
     font-weight: 200;
@@ -10,20 +10,33 @@
   /* .nav-wrapper ul li:hover {
       color: red
   } */
-  .navbar-toggler {
+  /* .navbar-toggler {
       color: #fff;
   }
   .nav-item {
       text-align: left !important;
       padding: 4px 0;
       border-bottom: 1px solid #4b4b4b;
-  }
+  } */
 
-  @media (min-width: 768px) {
+  /* @media (min-width: 768px) {
 	/*Nav bar*/
-	.nav-item {
+	/* .nav-item {
 		text-align: center !important;
 		padding: 0;
 		border-bottom: 0px;
-	}	
+	}	 */
+/* } */ 
+.bg-myBlack{
+    background-color: rgb(27, 27, 27,0.85);
+    
 }
+
+/* .linkText{
+    color: rgb(255,255,255,0.8); 
+} */
+.linkText:hover{
+    color: white; 
+}
+
+
