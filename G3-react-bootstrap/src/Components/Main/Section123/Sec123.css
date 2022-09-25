@@ -1,0 +1,120 @@
+/* General Styling*/
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+a {
+	color: #06c; 
+}
+img {
+	max-width: 100%;
+}
+.white {
+	color: #fff;
+}
+.black {
+	color: #1d1d1f;
+}
+.grey {
+	color: #86868b;
+}
+.top-50 {
+	margin-top: 50px;
+}
+
+.links-wrapper {
+	padding: 15px 0;
+}
+.links-wrapper ul li {
+	display: inline-block;
+	padding-right: 20px;
+}
+.links-wrapper ul li a {
+	color: #06c;
+	text-decoration: none;
+	font-size: 21px;
+}
+.links-wrapper ul li a:hover {
+	color: #000;
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+
+
+/*First Section*/
+.first-hightlight-wrapper{
+	background-image: url("../../../commonResource/images/home/ipodPronew-sm.jpg");
+	height: 580px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+  background-size: initial;
+  background-color: #fbfbfd;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;	
+	margin-bottom: 10px;
+}
+.ipod-caption {
+	color: #86868b;
+	font-size: 12px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -.01em;		
+  padding-top: 310px;
+}
+
+/*Second section*/
+.second-hightlight-wrapper {
+	background-image: url("../../../commonResource/images/home/macbookair-new-sm.jpg");
+	height: 580px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+  background-size: initial;
+  background-color: #fbfbfd;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;
+	margin-bottom: 10px;	
+}
+/*Third section*/
+.third-hightlight-wrapper  {
+	background-image: url("../../../commonResource/images/home/iphone11-pro-bg.jpg");
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;
+}
+.third-hightlight-wrapper h1{
+	color: white;
+}
+.third-hightlight-wrapper h4{
+	color: white;
+}
+
+
+@media (min-width: 768px){
+    /* Second section */
+	.second-hightlight-wrapper {
+		min-height: 692px;
+		background-image: url("../../../commonResource/images/home/macbookair-new.jpg");
+	}
+	.new-alert {
+		color: #BF4801;
+		font-size: 18px;
+	}
+	/* First section */
+	.first-hightlight-wrapper {
+		background-image: url("../../../commonResource/images/home/ipodPronew.jpg");
+		min-height: 692px;
+	}	
+	.ipod-caption {
+	  padding-top: 415px;
+	}	
+}
